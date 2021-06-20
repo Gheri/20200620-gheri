@@ -11,7 +11,7 @@ Steps to Run the Project
 6. Set env FILE_NAME && BMI_CATEGORY_QUERY --> to set the env variables to be used in app.
 7. npm start --> to start the app (index.js)
 
-Summary:
+Summary:  
 App is reading the json file (defined in FILE_NAME env) in chunks.
 Decorate the given object with BmiIndex, BmiCategory, HealthRisk fields in person object based on given formula and table.
 Also given BMI_CATEGORY_QUERY (could be "Overweight" to find number of Overweight ppl), will out put the number of ppl matching this criteria.
