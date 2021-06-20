@@ -1,0 +1,28 @@
+{
+  "name": "health-calculator",
+  "version": "1.0.0",
+  "description": "Health Calculator would keep you safe",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "gulp build",
+    "start": "node ./dist/index.js"
+  },
+  "author": "Gheri Rupchandani",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.14.5",
+    "JSONStream": "^1.3.5",
+    "babel-preset-stage-0": "^6.24.1",
+    "event-stream": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.28.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "jest": "^27.0.4"
+  }
+}
